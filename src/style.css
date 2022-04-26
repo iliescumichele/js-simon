@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    background-color: #244199;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3158cc;
+    height: 70%;
+    color: white;
+}
+
+.box_random_numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a4bad;
+    height: 70%;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
